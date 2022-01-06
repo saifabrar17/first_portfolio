@@ -1,0 +1,231 @@
+/* For font size, some height widths, I used figma reference. */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* BANNER START */
+.banner{
+    display: flex;
+    padding-top: 7%;
+    padding-right: 7%;
+    padding-left: 7%;
+
+}
+
+.banner-left{
+    width: 50%;
+}
+.banner-header{
+    border-left: 3px solid #FF5959;
+    padding-left: 15px;
+}
+.banner-header h2{
+    font-size: 60px;
+    font-family: 'Yeseva One', cursive; 
+    color: #333333;
+    padding-bottom: 10px;
+}
+#mission {
+    color: #F59560;
+}
+
+.banner-des p{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #3E3E3E;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.banner-p p{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #3E3E3E;
+}
+.banner-btn button{
+    height: 48px;
+    width: 172px;       /*Height Width taken from figma file*/
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #FF5959;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.banner-image{
+    width: 50%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.banner-image img{
+    width: 50%;
+}
+
+/* BANNER END */
+
+/* MISSION AREA START */
+.mission-header h2{
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    color: #333333;
+}
+.mission-header h2 span{
+    color: #F59560;
+}
+.mission-sec{
+    display: flex;
+}
+.card-area{
+    width: 25%;
+    padding-left: 6%;
+    
+}
+.card-elements{
+    background-color: #EDF5F6;
+    padding: 20px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+.card-elements-2{
+    background-color: #FFEEEE;
+}
+.card-elements-3{
+    background-color: #FFF4D6;
+}
+.card-elements img{
+    width: 35%;
+}
+.card-elements h3{
+    font-size: 23px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.card-elements p{
+    font-size: 14px;
+
+    font-family: 'Poppins', sans-serif;
+}
+/* MISSION AREA END */
+
+/* THIRD PART START */
+.third-part{
+    display: flex;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 100px;
+}
+.third-image{
+    width: 45%;
+}
+.third-description{
+    width: 60%;
+}
+.image-coding img{
+    width: 60%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.no-limits h2{
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+}
+.no-limits h2 span{
+    color: #F59560;
+}
+
+.no-limits p{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 25px;
+}
+.no-limits button{
+    height: 48px;
+    width: 243px;
+    font-size: 16px;
+    color: white;
+    background-color: #FF5959;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* THIRD PART END */
+
+.fourth-part{
+    padding-bottom: 50px;
+}
+/* blogs */
+.blogs{
+    display: flex;
+}
+.blog-card{
+    width: 30%;
+    padding-left: 40px;
+    padding-bottom: 100px;
+}
+.blog-elements img{
+    width: 80%;
+    border-radius: 15px;
+}
+.info span{
+ font-size: 16px;
+ color: #838383;
+ padding-top: 5px;
+
+}
+
+.blog-elements h3{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+    padding-top: 5px;
+}
+.blog-elements p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.blog-elements a{
+    font-size: 16px;
+    color: #F59560;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 2px solid #F59560;padding-top: 5px;
+
+}
+/* footer */
+footer{
+    background-color: #0B0D17;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer h1{
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-weight: 500;
+}
+
+footer p{
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
